@@ -10,43 +10,88 @@ export const home = [
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Unique technologies & modern approach ",
+    title: "Unique technologies & modern approach",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "100+ successful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
     title: "Customer satisfaction is our top priority",
   },
 ]
+
 export const expertise = [
   {
     id: 1,
     title: "Web Design & Development",
     cover: "../images/e1.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [
+      { text: "Web design" },
+      { text: "Web development" },
+      { text: "Custom icons & illustrations" },
+      { text: "Hosting" },
+      { text: "Website audit" },
+    ],
   },
   {
     id: 2,
-    title: "Digital Marketing",
+    title: "App Development",
     cover: "../images/e2.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    desc: [
+      { text: "iOS App Development" },
+      { text: "Android App Development" },
+      { text: "Cross-Platform Apps" },
+      { text: "App Maintenance & Support" },
+    ],
   },
   {
     id: 3,
-    title: "E-Commerce",
+    title: "3D Modeling",
     cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    desc: [
+      { text: "Product Modeling" },
+      { text: "Architectural Visualization" },
+      { text: "3D Animation" },
+      { text: "Virtual Reality" },
+    ],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
+    title: "Data Analytics",
     cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [
+      { text: "Data Visualization" },
+      { text: "Business Intelligence" },
+      { text: "Predictive Analytics" },
+      { text: "Data Warehousing" },
+    ],
+  },
+  {
+    id: 5,
+    title: "Ai Digital Marketing",
+    cover: "../images/AI.jpeg",
+    desc: [
+      { text: "Copywriting" },
+      { text: "Video Production" },
+      { text: "Graphic Design" },
+      { text: "Social Media Content" },
+    ],
+  },
+  {
+    id: 6,
+    title: "Salesforce Development & Admin",
+    cover: "../images/salesforce.png",
+    desc: [
+      { text: "Salesforce Development" },
+      { text: "Salesforce Administration" },
+      { text: "Salesforce Customization" },
+      { text: "Salesforce Integration" },
+    ],
   },
 ]
+
 export const testimonial = [
   {
     id: 1,
@@ -77,6 +122,7 @@ export const testimonial = [
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
 ]
+
 export const showcase = [
   {
     id: 1,
@@ -100,21 +146,22 @@ export const showcase = [
     id: 4,
     title: "Light Painting",
     cover: "../images/s4.jpg",
-    catgeory: "BRANDING	",
+    catgeory: "BRANDING",
   },
   {
     id: 5,
     title: "Ideabox",
     cover: "../images/s5.jpg",
-    catgeory: "BRANDING	",
+    catgeory: "BRANDING",
   },
   {
-    id: 5,
+    id: 6,
     title: "VR Experience",
     cover: "../images/s6.jpg",
-    catgeory: "WEBSITES	",
+    catgeory: "WEBSITES",
   },
 ]
+
 export const brand = [
   {
     id: 1,
@@ -141,6 +188,7 @@ export const brand = [
     cover: "../images/l6.svg",
   },
 ]
+
 export const blogdata = [
   {
     id: 1,
@@ -171,6 +219,7 @@ export const blogdata = [
     date: "OCTOBER 8, 2023",
   },
 ]
+
 export const teamdata = [
   {
     id: 1,
